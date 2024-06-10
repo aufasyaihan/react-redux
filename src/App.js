@@ -9,8 +9,13 @@ function App() {
   return (
     <>
       <Header />
-      {auth ? <UserProfile /> : <Auth />}
-      <Counter />
+      {auth ? (
+        <>
+          <UserProfile /> <Counter />
+        </>
+      ) : (
+        <Auth />
+      )}
     </>
   );
 }
