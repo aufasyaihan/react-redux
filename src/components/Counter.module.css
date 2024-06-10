@@ -16,6 +16,10 @@
 }
 
 .value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   font-size: 2rem;
   color: #3c0080;
   margin: 2rem 0;
